@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <time.h>
+/* More headers */
 
+/* style doc for Betty */
 /**
  * main - Print the last digit
  *
@@ -14,7 +16,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
+	/* code */
 	m = n % 10;
 	if (m > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, m);
