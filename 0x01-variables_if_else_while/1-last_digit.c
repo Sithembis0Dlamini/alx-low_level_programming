@@ -1,9 +1,9 @@
 /**
  * main - Print the last digit
  *
- * Return: Always 0
+ * Return: Always 0.
  */
-int main(0)
+int main(void)
 {
 	int n;
 
