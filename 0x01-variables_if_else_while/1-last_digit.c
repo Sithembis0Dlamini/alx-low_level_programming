@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <time.h>
+
 /**
  * main - Print the last digit
  *
