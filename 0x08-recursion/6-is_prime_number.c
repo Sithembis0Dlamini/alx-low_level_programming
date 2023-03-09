@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * helperFunction - returns 0 or 1.
  * @num: number being checked.
@@ -31,7 +32,6 @@ return (1);
  * Return: 1 if number is prime.
  * 0 if number is not prime.
  */
-
 int is_prime_number(int n)
 {
 if (n <= 1)
