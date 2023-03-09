@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 /**
  * helperFunction - returns 0 or 1.
  * @num: number being checked.
@@ -8,15 +8,15 @@
  */
 int helperFunction(int num, int i)
 {
-	if (i < num)
-	{
-		if (num % == 0)
-		{
-			return (0);
-		}
-		else
-		{
-			return (helperFunction(num, i + 1));
+        if (i < num)
+        {
+                if (num % == 0)
+                {
+                        return (0);
+                }
+                else
+                {
+                        return (helperFunction(num, i + 1));
 		}
 	}
 	else
@@ -24,9 +24,8 @@ int helperFunction(int num, int i)
 		return (1);
 	}
 }
-
 /**
- * is_prime_number - checks if number is prime or not.
+ * is _prime_number - checks if number is prime or not.
  * @n: number to be checked.
  *
  * Return: 1 if number is prime.
@@ -43,3 +42,4 @@ int is_prime_number(int n)
 		return (helperFunction(n, 2));
 	}
 }
+
