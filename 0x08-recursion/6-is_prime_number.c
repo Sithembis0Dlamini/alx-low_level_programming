@@ -26,7 +26,7 @@ return (1);
 }
 }
 /**
- * is _prime_number - checks if number is prime or not.
+ * is_prime_number - checks if number is prime or not.
  * @n: number to be checked.
  *
  * Return: 1 if number is prime.
