@@ -1,5 +1,7 @@
 #include <stdlib.h>
+#include "main.h"
 #include  "dog.h"
+#include <stdio.h>
 
 /**
  * new_dog - creates a new dog
@@ -9,6 +11,7 @@
  *
  * Return: NULL if fail
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 int i, lenN, len0;
